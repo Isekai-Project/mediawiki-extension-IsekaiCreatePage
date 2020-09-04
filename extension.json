@@ -1,0 +1,53 @@
+{
+	"name": "Isekai Create Page",
+	"namemsg": "isekai-createpage",
+	"author": "Hyperzlib",
+	"version": "1.0.0",
+	"url": "https://github.com/Isekai-Project/mediawiki-extension-IsekaiCreatePage",
+	"descriptionmsg": "isekai-createpage-desc",
+	"license-name": "MIT",
+	"type": "parserhook",
+	"MessagesDirs": {
+		"IsekaiCreatePage": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"Isekai\\CreatePage\\CreatePagePanel": "includes/CreatePagePanel.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "Isekai\\CreatePage\\CreatePagePanel::onParserSetup"
+	},
+	"ResourceModules": {
+        "ext.isekai.createPage": {
+			"scripts": "ext.isekai.createPage.js",
+			"dependencies": [
+				"oojs-ui-core"
+			],
+			"targets": [
+				"desktop",
+				"mobile"
+			],
+			"messages": [
+				"isekai-createpage-page-title",
+				"isekai-createpage-create-page-button",
+				"isekai-createpage-page-exists",
+				"isekai-createpage-title-empty",
+				"isekai-createpage-redirecting"
+			]
+        },
+        "ext.isekai.createPage.base": {
+            "scripts": "ext.isekai.createPage.base.js",
+            "styles": "ext.isekai.createPage.base.less",
+            "targets": [
+				"desktop",
+				"mobile"
+			]
+		}
+    },
+    "ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "IsekaiCreatePage/modules"
+	},
+	"manifest_version": 1
+}

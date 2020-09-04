@@ -1,0 +1,10 @@
+{
+    "isekai-createpage": "Isekai Create Page widget",
+    "isekai-createpage-desc": "Display a panel contains a form to create new page. Please use <code><nowiki><createpage></createpage></nowiki></code>",
+    "isekai-createpage-page-title": "Title for new page",
+    "isekai-createpage-create-page": "Create page",
+    "isekai-createpage-create-page-button": "Create",
+    "isekai-createpage-page-exists": "A page with the same name already exists. Please use another name.",
+    "isekai-createpage-title-empty": "Please input title.",
+    "isekai-createpage-redirecting": "Redirecting, please wait..."
+}

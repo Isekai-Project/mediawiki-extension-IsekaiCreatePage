@@ -1,0 +1,10 @@
+{
+    "isekai-createpage": "异世界百科 创建页面控件",
+    "isekai-createpage-desc": "显示一个用于创建新页面的输入框。请使用<code><nowiki><createpage></createpage></nowiki></code>",
+    "isekai-createpage-page-title": "页面标题",
+    "isekai-createpage-create-page": "新建页面",
+    "isekai-createpage-create-page-button": "创建",
+    "isekai-createpage-page-exists": "已有相同名字的页面存在，换一个名字吧。",
+    "isekai-createpage-title-empty": "请填写标题",
+    "isekai-createpage-redirecting": "正在跳转，请稍后……"
+}
