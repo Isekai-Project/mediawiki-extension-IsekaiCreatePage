@@ -2,7 +2,7 @@
 	"name": "Isekai Create Page",
 	"namemsg": "isekai-createpage",
 	"author": "Hyperzlib",
-	"version": "1.0.0",
+	"version": "1.0.2",
 	"url": "https://github.com/Isekai-Project/mediawiki-extension-IsekaiCreatePage",
 	"descriptionmsg": "isekai-createpage-desc",
 	"license-name": "MIT",
@@ -20,7 +20,13 @@
 	},
 	"ResourceModules": {
         "ext.isekai.createPage": {
-			"scripts": "ext.isekai.createPage.js",
+			"scripts": [
+				"ext.isekai.createPage.js",
+				"ext.isekai.createPage.base.js"
+			],
+			"styles": [
+				"ext.isekai.createPage.base.less"
+			],
 			"dependencies": [
 				"oojs-ui-core"
 			],
@@ -35,15 +41,7 @@
 				"isekai-createpage-title-empty",
 				"isekai-createpage-redirecting"
 			]
-        },
-        "ext.isekai.createPage.base": {
-            "scripts": "ext.isekai.createPage.base.js",
-            "styles": "ext.isekai.createPage.base.less",
-            "targets": [
-				"desktop",
-				"mobile"
-			]
-		}
+        }
     },
     "ResourceFileModulePaths": {
 		"localBasePath": "modules",

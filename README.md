@@ -4,6 +4,6 @@
 <createpage />
 ```
 
-## Screenshoot
-![Screenshoot](https://imgur.com/IcVNDwW.png)
-![Screenshoot](https://imgur.com/FAkh3gK.png)
+## Screenshot
+![Screenshot](https://imgur.com/IcVNDwW.png)
+![Screenshot](https://imgur.com/FAkh3gK.png)

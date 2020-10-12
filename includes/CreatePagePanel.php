@@ -17,7 +17,7 @@ class CreatePagePanel {
     }
     
     public static function createPagePanel($text, $params, $parser, $frame){
-        $parser->getOutput()->addModules('ext.isekai.createPage.base');
+        $parser->getOutput()->addModules('ext.isekai.createPage');
 
         $createPagePanel = new self();
         return $createPagePanel->getHtml();
